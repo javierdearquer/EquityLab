@@ -27,17 +27,16 @@ A collection of Python-based tools for the valuation of equities using fundament
 
 ## 📂 Folder Structure
 
-'''bash
-equity-valuation-toolkit/
-│
-├── data/                   # Raw or cleaned financial data (optional)
-├── models/                 # DCF and WACC Python modules
-├── notebooks/              # Interactive Jupyter Notebooks
-├── outputs/                # Results, charts, and model exports
-├── README.md               # This file
-├── requirements.txt        # Python dependencies
-└── setup.py                # (Optional) Setup for pip installation
-'''
+    equity-valuation-toolkit/
+    │
+    ├── data/                   # Raw or cleaned financial data (optional)
+    ├── models/                 # DCF and WACC Python modules
+    ├── notebooks/              # Interactive Jupyter Notebooks
+    ├── outputs/                # Results, charts, and model exports
+    ├── README.md               # This file
+    ├── requirements.txt        # Python dependencies
+    └── setup.py                # (Optional) Setup for pip installation
+
 
 ## 🚀 Getting Started
 1. Clone the repo
@@ -47,7 +46,7 @@ cd equity-valuation-toolkit
 
 2. Set up environment
 
-'''pip install -r requirements.txt'''
+    pip install -r requirements.txt
 
 3. Run example notebook
 
