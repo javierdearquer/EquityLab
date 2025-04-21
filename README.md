@@ -29,7 +29,6 @@ A collection of Python-based tools for the valuation of equities using fundament
     │
     ├── data/                   # Raw or cleaned financial data (optional)
     ├── models/                 # DCF and WACC Python modules
-    ├── notebooks/              # Interactive Jupyter Notebooks
     ├── outputs/                # Results, charts, and model exports
     ├── README.md               # This file
     ├── requirements.txt        # Python dependencies
