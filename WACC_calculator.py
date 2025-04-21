@@ -64,7 +64,10 @@ def calculate_wacc(ticker, tax_rate=0.25, market_return=0.10):
 
 # Example usage
 ticker = "BABA"
+#WACC using anual reports 10K
 results = calculate_wacc(ticker)
+
+#TODO create a version using the quarterly reports (therefore more relevan/recent)
 
 for key, value in results.items():
     print(f"{key}: {value:.4f}" if isinstance(value, float) else f"{key}: {value}")
