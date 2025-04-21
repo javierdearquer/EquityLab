@@ -18,10 +18,8 @@ A collection of Python-based tools for the valuation of equities using fundament
 
 | Tool                      | Description                                        |
 |--------------------------|----------------------------------------------------|
-| `dcf_model.py`           | Core logic for a DCF valuation                     |
+| `DCF_valuation_v3.py`    | Core logic for a DCF valuation                     |
 | `wacc_calculator.py`     | Computes WACC based on capital structure inputs    |
-| `valuation_utils.py`     | Helper functions for working capital, tax, etc.    |
-| `example_notebook.ipynb` | Walkthrough with sample data (e.g., Apple, Tesla)  |
 
 ---
 
