@@ -37,44 +37,51 @@ A collection of Python-based tools for the valuation of equities using fundament
     ├── requirements.txt        # Python dependencies
     └── setup.py                # (Optional) Setup for pip installation
 
+---
 
 ## 🚀 Getting Started
 1. Clone the repo
 
-    git clone https://github.com/yourusername/equity-valuation-toolkit.git
-    cd equity-valuation-toolkit
+```git clone https://github.com/yourusername/equity-valuation-toolkit.git
+cd equity-valuation-toolkit```
 
 2. Set up environment
 
-    pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 3. Run example notebook
 
-    jupyter notebook notebooks/example_notebook.ipynb
+```jupyter notebook notebooks/example_notebook.ipynb```
 
 ## 🧾 Requirements
 
-    Python 3.8+
-
-    pandas, numpy, matplotlib, scipy
-
-    Optional: yfinance, openpyxl, seaborn, plotly
+Python 3.8+
+pandas, numpy, matplotlib, scipy
+Optional: yfinance, openpyxl, seaborn, plotly
 
 You can install all dependencies with:
 
-    pip install -r requirements.txt
+```pip install -r requirements.txt```
+
+---
 
 ## 🧠 Inspiration
 
 This project was born out of the need for a clean, reusable, and transparent Python-based framework for valuing companies. Whether you're a student, analyst, or investor — this toolkit aims to accelerate your equity research. Big thanks to Prof. Damodaran for all his free material on equities valuation. He has been the true inspiration for me
 
+---
+
 ## 📬 Contributions
 
 Contributions are welcome! Feel free to submit pull requests, suggest features, or open issues for discussion.
 
+---
+
 ## 📝 License
 
 MIT License. See LICENSE file for details.
+
+---
 
 ## 🙋‍♂️ Author
 
