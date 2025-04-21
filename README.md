@@ -27,7 +27,7 @@ A collection of Python-based tools for the valuation of equities using fundament
 
 ## 📂 Folder Structure
 
-```bash
+'''bash
 equity-valuation-toolkit/
 │
 ├── data/                   # Raw or cleaned financial data (optional)
@@ -37,7 +37,7 @@ equity-valuation-toolkit/
 ├── README.md               # This file
 ├── requirements.txt        # Python dependencies
 └── setup.py                # (Optional) Setup for pip installation
-``
+'''
 
 ## 🚀 Getting Started
 1. Clone the repo
