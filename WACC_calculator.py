@@ -10,7 +10,7 @@ def get_risk_free_rate():
     except:
         return 0.04  # fallback default
 
-def calculate_wacc(ticker, tax_rate=0.25, market_return=0.10):
+def calculate_wacc(ticker, ERP=0.04):
     stock = yf.Ticker(ticker)
     info = stock.info
     market_cap = info.get("marketCap", None)
@@ -40,10 +40,16 @@ def calculate_wacc(ticker, tax_rate=0.25, market_return=0.10):
 
     # Cost of Equity using CAPM
     risk_free_rate = get_risk_free_rate()
-    cost_of_equity = risk_free_rate + beta * (market_return - risk_free_rate)
+    cost_of_equity = risk_free_rate + beta * ERP #(market_return - risk_free_rate)
 
     # Cost of Debt
     cost_of_debt = (interest_expense / total_debt) if total_debt > 0 else 0
+
+    try:
+        tax_rate = fin.T['Tax Provision']/fin.T['Pretax Income']
+        tax_rate = tax_rate.mean()
+    except:
+        tax_rate = 0.21 # Tax Rate (assumed to be 21% for US companies)
 
     # WACC
     E = market_cap
