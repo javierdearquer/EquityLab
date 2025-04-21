@@ -93,4 +93,4 @@ MIT License. See LICENSE file for details.
 
 ## 🙋‍♂️ Author
 
-Javi – [LinkedIn](https://www.linkedin.com/in/javierdearquer/))
+Javi – [LinkedIn](https://www.linkedin.com/in/javierdearquer/)
