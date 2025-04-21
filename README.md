@@ -42,16 +42,22 @@ A collection of Python-based tools for the valuation of equities using fundament
 ## 🚀 Getting Started
 1. Clone the repo
 
-```git clone https://github.com/yourusername/equity-valuation-toolkit.git
-cd equity-valuation-toolkit```
+```
+git clone https://github.com/yourusername/equity-valuation-toolkit.git
+cd equity-valuation-toolkit
+```
 
 2. Set up environment
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 3. Run example notebook
 
-```jupyter notebook notebooks/example_notebook.ipynb```
+```
+jupyter notebook notebooks/example_notebook.ipynb
+```
 
 ## 🧾 Requirements
 
@@ -61,7 +67,9 @@ Optional: yfinance, openpyxl, seaborn, plotly
 
 You can install all dependencies with:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ---
 
