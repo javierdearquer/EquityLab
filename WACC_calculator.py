@@ -13,10 +13,9 @@ def get_risk_free_rate():
 def calculate_wacc(ticker, ERP=0.04):
     stock = yf.Ticker(ticker)
     info = stock.info
-    market_cap = info.get("marketCap", None)
     beta = info.get("beta", None)
 
-    if market_cap is None or beta is None:
+    if beta is None:
         raise ValueError("Missing market cap or beta from yfinance.")
 
     # Get Total Debt (Short + Long Term) from balance sheet
@@ -52,7 +51,7 @@ def calculate_wacc(ticker, ERP=0.04):
         tax_rate = 0.21 # Tax Rate (assumed to be 21% for US companies)
 
     # WACC
-    E = market_cap
+    E = bs.T.sort_index()['Stockholders Equity'].iloc[-1]
     D = total_debt
     V = E + D
     wacc = (E / V) * cost_of_equity + (D / V) * cost_of_debt * (1 - tax_rate)
